@@ -1,0 +1,10 @@
+name = follow mod
+core = 7.x
+package = Features
+version = 7.x-1.0
+dependencies[] = features
+dependencies[] = follow
+dependencies[] = menu
+dependencies[] = site_configuration
+features[features_api][] = api:2
+features[menu_links][] = management_follow:admin/config/services/follow

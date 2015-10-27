@@ -1,0 +1,16 @@
+name = Follow Alter Mod
+core = 7.x
+package = Features
+version = 7.x-1.0
+dependencies[] = features
+dependencies[] = follow
+dependencies[] = follow_alter
+dependencies[] = menu
+dependencies[] = site_configuration
+features[features_api][] = api:2
+features[user_permission][] = administer follow
+features[user_permission][] = change follow link titles
+features[user_permission][] = edit any user follow links
+features[user_permission][] = edit own follow links
+features[user_permission][] = edit site follow links
+features_exclude[menu_links][management_follow:admin/config/services/follow] = management_follow:admin/config/services/follow

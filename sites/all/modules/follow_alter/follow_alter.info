@@ -1,0 +1,5 @@
+name = Follow Alter
+description = Adds links to follow module
+core = 7.x
+package = Epicodus examples
+files[] = follow_alter.module
