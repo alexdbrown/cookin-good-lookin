@@ -1,0 +1,6 @@
+name = Text Formatter feature
+core = 7.x
+package = Features
+dependencies[] = textformatter
+dependencies[] = textformatter_contrib
+features[features_api][] = api:2
