@@ -1,0 +1,87 @@
+/**
+ * @file
+ * Styles are organized using the SMACSS technique. @see http://smacss.com/book/
+ *
+ * When you turn on CSS aggregation at admin/config/development/performance, all
+ * of these @include files will be combined into a single file.
+ */
+
+/* HTML element (SMACSS base) rules */
+@import "normalize.css";
+
+/* Layout rules */
+@import "layouts/responsive.css";
+
+/* Component (SMACSS module) rules */
+@import "components/misc.css";
+/* Optionally, add your own components here. */
+@import "print.css";
+
+/* SMACSS theme rules */
+/* @import "theme-A.css"; */
+/* @import "theme-B.css"; */
+
+body {
+  background: url("../images/tablecloth_blue.jpg") no-repeat center center fixed;
+  background-size: cover;
+  color: #333;
+  font-size: 14px;
+  line-height: 1.6;
+  font-family: Karla, helvetica, verdana, arial, sans-serif;
+}
+
+
+
+a, a:link {
+  color: #e54739;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+h2 {
+  margin-bottom: 4px;
+  /*color: #e54739;*/
+  font-family: Hammersmith One, serif;
+}
+
+p {
+  margin-top: 4px;
+  margin-bottom: 10px;
+}
+
+.node-article, .node-recipe, .node-news, #block-user-login, #block-views-recipe-block, #block-views-news-block {
+  background: #f5f5f5;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  margin-top: 15px;
+  margin-bottom: 15px;
+
+}
+
+header.header {
+  background: #F4F1DE;
+}
+
+#site-name {
+  background: #e54739;
+  padding: 10px 10px 0px 0px;
+
+}
+
+#site-name a {
+  color: #F4F1DE;;
+}
+
+/*#logo {
+  background: white;
+}*/
+
+#site-slogan {
+  background: #F4F1DE;
+  /*padding-left: 10px;*/
+  /*color: white;*/
+}
